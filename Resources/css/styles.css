@@ -1,0 +1,86 @@
+
+* {
+    box-sizing: border-box;
+  } 
+  
+  input, textarea {
+    width: 100%;
+  }
+
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #000000;
+  }
+
+  h2 {
+    text-align: center;
+    margin: 10px auto;
+  }
+
+  h3 {
+    text-align: center;
+    margin: 30px auto 50px;
+  }
+
+  .new-project-container {
+    margin: 20px auto 50px;
+  }
+
+  .new-project-btn {
+    color: #ffffff;
+    margin: 20px auto 10px;
+  }
+
+  .new-project-btn:hover {
+    color: #ffffff;
+  }
+
+  #result, #error-message {
+    border-radius: 10px;
+    display: none;
+    line-height: 20px;
+    margin: 20px auto 10px;
+    padding: 15px 25px;
+    width: 250px;
+    text-align: center;
+    height: 50px;
+  }
+
+  #error-message {
+    width: 350px;
+  }
+
+  #new-contact-section {
+    margin: 30px auto;
+    padding-top: 20px;
+  }
+
+  #add-new-contact-row, #edit-contact-row {
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+  }
+
+  .fa-trash-alt {
+    margin-left: 10px;
+  }
+
+  .fa-trash-alt:hover {
+    cursor: pointer;
+  }
+
+  .fa-pencil-alt:hover {
+    cursor: pointer;
+  }
+
+  .pagination-container {
+    text-align: center;
+  }
+
+  .pagination-container a {
+    margin: 10px 5px 20px;
+  }
